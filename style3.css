@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.pic-ad{
+    margin-top:60px;
+    margin-left:10px;
+}
+.glow-hea{
+    color:rgb(63, 61, 61);
+    font-weight: 500;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 0.1rem;
+    margin-top: 10px;
+}
+.pic-ad2{
+    margin-top:30px;
+    margin-left:80px;
+    width:90%;
+    height:80%;
+}

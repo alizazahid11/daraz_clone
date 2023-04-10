@@ -1,0 +1,799 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Daraz.pk</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav class="nav-bar">
+    <ul class="nav-links">
+      <li><a class="nav-links" href="#">SAVE MORE ON APP</a></li>
+      <li><a class="nav-links" href="#">DARAZ AFFILIATE PROGRAM</a></li>
+      <li><a class="nav-links" href="#">SELL ON DARAZ</a></li>
+      <li><a class="nav-links" href="#">CUSTOMER CARE</a></li>
+      <li><a class="nav-links" href="#">TRACK MY ORDER</a></li>
+      <li><a class="nav-links" href="#">LOGIN</a></li>
+      <li><a class="nav-links" href="#">SIGNUP</a></li>
+      <li><a class="nav-links" href="#">زبان تبدیل کریں</a></li>
+    </ul>
+  </nav>
+  <header class="sticky-head">
+  <div class="main-header d-flex ">
+    <div class="logo">
+      <a href="./index.html"> <img src="https://logos-world.net/wp-content/uploads/2022/05/Daraz-Logo.png" width="90"
+          height="60" class="logo-img" alt="logo image"></a>
+    </div>
+    <div class="search-box ">
+      <form action="#">
+        <input type="text" placeholder="Search in Daraz" name="search" size="90" maxlength="90" maxheight="60"><a
+          href="./index.html"><button type="submit"><img
+              src="https://icon-library.com/images/search-google-icon/search-google-icon-11.jpg" height="52"
+              width="50" />
+        </a></button>
+      </form>
+    </div>
+    <div class="cart-icon ">
+      <a href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="70" height="30" fill="currentColor" class="bi bi-cart"
+          viewBox="0 0 16 16">
+          <path
+            d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z">
+          </path>
+        </svg> </a>
+    </div>
+    <div class="side-logo">
+      <a href="#"> <img src="https://upload.wikimedia.org/wikipedia/commons/2/26/Daraz_logo_color.png" height="60"
+          width="100" /></a>
+    </div>
+  </div>
+</header>
+  <br/>
+  <div class=" dropdown-category dropdown-mainpage">
+    <a href="#">
+      <p> <strong>Categories </strong></p><i class="fa fa-caret-down arrowicon" aria-hidden="true"></i>
+    </a>
+    <div class="row.d-flex.justify-content-evenly.slider-section-1"></div>
+    <div class="category-block">
+      <ul class="categories dropdown-data">
+        <li class="categories-list"><a href="#">Groceries &amp; Pets</a></li>
+        <li class="categories-list"><a href="#">Health &amp; Beauty</a></li>
+        <li class="categories-list"><a href="#">Men's Fashion</a></li>
+        <li class="categories-list"><a href="#">Womens's Fashion</a></li>
+        <li class="categories-list"><a href="#">Babies &amp; Toys</a></li>
+        <li class="categories-list"><a href="#">Home &amp; Lifestyle</a></li>
+        <li class="categories-list"><a href="#">Electonic Device</a></li>
+        <li class="categories-list">
+          <a href="#">Electronic Accessories</a>
+        </li>
+        <li class="categories-list"><a href="#">TV &amp; Home Appliances</a></li>
+        <li class="categories-list"><a href="#">Sports &amp; Outdoor</a></li>
+        <li class="categories-list">
+          <a href="#">Watches, Bags &amp; Jewellery</a>
+        </li>
+        <li class="categories-list"><a href="#">Atumotive &amp; Motorbike</a></li>
+      </ul>
+    </div>
+  </div>
+
+
+  <div class="category-block category-block-mainpage col-2">
+    
+    <ul class="categories">
+      <li class="categories-list"><a href="#">Groceries &amp; Pets</a></li>
+      <li class="categories-list"><a href="#">Health &amp; Beauty</a></li>
+      <li class="categories-list"><a href="#">Men's Fashion</a></li>
+      <li class="categories-list"><a href="#">Womens's Fashion</a></li>
+      <li class="categories-list"><a href="#">Babies &amp; Toys</a></li>
+      <li class="categories-list"><a href="#">Home &amp; Lifestyle</a></li>
+      <li class="categories-list"><a href="#">Electonic Device</a></li>
+      <li class="categories-list"> <a href="#">Electronic Accessories</a> </li>
+      <li class="categories-list"><a href="#">TV &amp; Home Appliances</a></li>
+      <li class="categories-list"><a href="#">Sports &amp; Outdoor</a></li>
+      <li class="categories-list"><a href="#">Watches, Bags &amp; Jewellery</a></li>
+      <li class="categories-list"><a href="#">Automotive &amp; Motorbike</a></li>
+    </ul>
+  </div>
+
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+        aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+        aria-label="Slide 5"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+        aria-label="Slide 6"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"
+        aria-label="Slide 7"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7"
+        aria-label="Slide 8"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="2000">
+        <img src="https://blog.daraz.pk/wp-content/uploads/2021/10/world-cup-kw-1-1024x576.png"
+          class="d-block w-100 h-50" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="https://icms-image.slatic.net/images/ims-web/6082bc62-ce1d-4cdd-86f3-5f5cd2ad8f02.jpg"
+          class="d-block w-100 h-50" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="https://blog.daraz.pk/wp-content/uploads/2022/12/12-12-KV-1-1024x585.jpg" class="d-block w-100 h-50"
+          alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="https://blog.daraz.pk/wp-content/uploads/2020/02/DARAZ_APP_Banner.png" class="d-block w-100 h-50"
+          alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="http://island.lk/wp-content/uploads/2021/10/daraz.jpg" class="d-block w-100 h-50" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="https://new-media.dhakatribune.com/en/uploads/2022/11/12/photo-english.png" class="d-block w-100 h-50"
+          alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="https://blog.daraz.pk/wp-content/uploads/2020/07/ABOUT-DMALL-OG.jpg" class="d-block w-100 h-50"
+          alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img
+          src="https://www.tbsnews.net/sites/default/files/styles/big_3/public/images/2022/05/18/the_ultimate_shopping_experience_with_daraz_mall.gif"
+          class="d-block w-100 h-50" alt="...">
+      </div>
+
+    </div>
+
+  </div>
+  </div>
+  <div class="d-flex justify-content-center ">
+  
+    <img src="./Screenshot (438).png" class="pic-ad" height="80" width="80" />
+  </div>
+  <div class="d-flex flex-wrap justify-content-center mt-3">
+  
+    <a href="beauty.html" style="text-decoration: none; color:black; " class="buttons-a" >  <div class="d-flex   button-icon">
+      <img
+        src="https://w7.pngwing.com/pngs/542/1010/png-transparent-cosmetics-makeup-brush-lipstick-makeup-brush-miscellaneous-pencil-people.png"
+        class="icon-img" alt="makeup" />
+   <h3 class="button-item">Beauty</h3>
+    </div></a> 
+    <a href="./mart.html" style="text-decoration: none; color:black; " class="buttons-a">  <div class="d-flex   button-icon">
+      <img
+        src="https://w7.pngwing.com/pngs/1007/189/png-transparent-grocery-store-supermarket-shopping-list-food-restaurant-supermarket-vegetables-natural-foods-service-retail.png"
+        class="icon-img" alt="grocerry" />
+         <h3 class="button-item">Mart</h3> 
+    </div></a>
+    <a href=# style="text-decoration: none; color:black;" class="buttons-a">  <div class="d-flex   button-icon">
+      <img src="https://e1.pngegg.com/pngimages/104/533/png-clipart-sofa-red-2-seat-sofa-illustration-thumbnail.png"
+        class="icon-img" alt="sofa" />
+         <h3 class="button-item">Home & Decor</h3>
+    </div></a>
+   
+   <a  href=# style="text-decoration: none; color:black;" >  <div class="d-flex   button-icon">
+      <img src="https://toppng.com/uploads/preview/high-heel-high-heel-sv-11563244360dkbziaq91e.png" class="icon-img"
+        alt="heels" />
+        <h3 class="button-item">Fashion</h3> 
+       </div></a>
+  </div>
+  <div class="display-section">
+    <h2 class="fs-7 mt-3 mb-2 ms-5 text-secondary">Flash Sale</h2>
+    <div class="card w-80 ms-5 h-50 me-5">
+      <div class="card-header border-light ">
+        <div class="sale-end d-flex">
+          <p style="color:orangered">On sale now </p>
+
+          <p style="margin-left:80px">Ending in</p>
+          <p class="timer">11</p>
+          :
+          <p class="timer">00</p>
+          :
+          <p class="timer">01</p>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-6 g-4">
+        <div class="col">
+          <div class="card border-light">
+            <a href="#">   <img src="https://www.pngitem.com/pimgs/m/278-2780229_silver-heart-necklace-locket-hd-png-download.png"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Women's Locket</h5></a>
+              <p class="card-text" style="color:orangered">RS 300</p>
+              <p class="card-text"><small class="text-muted"><S style="color:rgb(189, 186, 186)">RS 400 </S> 5%</small>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-light">
+            <a href="#">   <img src="http://atlas-content-cdn.pixelsquid.com/stock-images/apple-airpods-earphones-exdGm2B-600.jpg"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">ABCD Airpods</h5></a>
+              <p class="card-text" style="color:orangered">20,000</p>
+              <p class="card-text"><small class="text-muted"><S style="color:rgb(189, 186, 186)">RS 30,000 </S>
+                  6%</small></p>
+
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-light">
+            <a href="#">  <img
+              src="http://cdn.shopify.com/s/files/1/0590/3830/2392/products/Model-No.588-YOUNG-Professional-Hair-Straightener-Automatic-Sense.jpg?v=1643113816"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Hair straightner</h5></a>
+              <p class="card-text" style="color:orangered">10,000</p>
+              <p class="card-text"><small class="text-muted"><S style="color:rgb(189, 186, 186)">RS 7,000 </S>
+                  3%</small></p>
+
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-light">
+            <a href="#"> <img src="https://www.pngitem.com/pimgs/m/0-5709_dove-moisture-face-wash-hd-png-download.png"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Girls facewash</h5></a>
+              <p class="card-text" style="color:orangered">500</p>
+              <p class="card-text"><small class="text-muted"><S style="color:rgb(189, 186, 186)">400 </S> 2%</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-light">
+            <a href="#">  <img src="https://static-01.daraz.pk/p/dc173ebcfef2dc5e85989be3d95a7769.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Ring</h5></a>
+              <p class="card-text" style="color:orangered">100</p>
+              <p class="card-text"><small class="text-muted"><S style="color:rgb(189, 186, 186)">50 </S> 2%</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-light">
+            <a href="#">   <img src="https://static-01.daraz.pk/p/c31db360caf3f6fe87add2c80b6c116b.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Men's Perfume</h5></a>
+              <p class="card-text" style="color:orangered">4000</p>
+              <p class="card-text"><small class="text-muted"><S style="color:rgb(189, 186, 186)">1500 </S> 8%</small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="display-section">
+    <h3 class="fs-7 mt-3 mb-2 ms-5 h-25" style="color:rgb(56, 48, 48)">DarazMall</h3>
+    <div class="row row-cols-1 row-cols-md-6 g-4 ms-5 me-5  " style="height:80%">
+      <div class="col">
+        <div class="card border-light">
+          <a href="#">   <img src="https://static-01.daraz.pk/p/176819a193a45925c1b49479b6dd3c7a.jpg" class="card-img-top" alt="...">
+          <center> <img src="https://static-01.daraz.pk/other/shop/67eb5f0fb1192554fcec47ffd8b3020b.png_200x200.jpg"
+              style="height:50px; width:50px " /></center>
+          <div class="card-body">
+            <center>
+              <h5 class="card-title fs-6">dFresh Islamabad</h5> </a>
+            </center>
+            <center>
+              <h6 style="color:rgb(184, 172, 172)">dFresh Islamabad</h6>
+            </center>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border-light">
+          <a href="#">    <img src="https://static-01.daraz.pk/p/948f86e040b12e357e1db3179021a21d.jpg" class="card-img-top" alt="...">
+          <center> <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiIWil17qRJHWH8f9Jcw8DW2fVNkH4HbYFxA&usqp=CAU"
+              style="height:50px; width:50px " /></center>
+          <div class="card-body">
+            <center>
+              <h5 class="card-title fs-6">E-Dental Mart</h5></a>
+            </center>
+            <center>
+              <h6 style="color:rgb(184, 177, 177)">E-Dental Mart</h6>
+            </center>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border-light">
+          <a href="#"> <img src="https://static-01.daraz.pk/p/a825e8505384bce9a6da1b24f03b2276.jpg" class="card-img-top" alt="...">
+          <center> <img src="https://static-01.daraz.pk/other/shop/7c1c46663758c137ca9038c81922f756.png_200x200.jpg"
+              style="height:50px; width:50px " /></center>
+          <div class="card-body">
+            <center>
+              <h5 class="card-title fs-6">Hazari Trading Co.</h5></a>
+            </center>
+            <center>
+              <h6 style="color:rgb(184, 176, 176)">Bags & Luggage</h6>
+            </center>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border-light">
+          <a href="#">    <img src="https://static-01.daraz.pk/p/9d06b61ffd10da491e34cc56382502c4.jpg" class="card-img-top" alt="...">
+          <center> <img src="https://static-01.daraz.pk/other/shop/c3f641dfde173cbeff5be3206584db2a.jpeg"
+              style="height:50px; width:50px " /></center>
+          <div class="card-body">
+            <center>
+              <h5 class="card-title fs-6">SAC</h5></a>
+            </center>
+            <center>
+              <h6 style="color:rgb(184, 176, 176)">Official Store</h6>
+            </center>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border-light">
+          <a href="#"> <img src="https://static-01.daraz.pk/p/86cc1386e9727a27b1919f4a6d86083d.jpg" class="card-img-top" alt="...">
+          <center> <img src="https://static-01.daraz.pk/other/shop/79ede197b4e7480d26024f3ee1fa8163.png"
+              style="height:50px; width:50px " /></center>
+          <div class="card-body">
+            <center>
+              <h5 class="card-title fs-6">WB by Hemani</h5></a>
+            </center>
+            <center>
+              <h6 style="color:rgb(184, 176, 176)">Upto 50% OFF</h6>
+            </center>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border-light">
+          <a href="#">     <img src="https://static-01.daraz.pk/p/b5fcdde7fd8789de98f94b3d30e65c5e.jpg" class="card-img-top" alt="...">
+          <center> <img src="https://i.pinimg.com/originals/cf/3d/9d/cf3d9d1294ec39ffcea39f925b21c272.png"
+              style="height:50px; width:50px " /></center>
+          <div class="card-body">
+            <center>
+              <h5 class="card-title fs-6">DAWLANCE</h5></a>
+            </center>
+            <center>
+              <h6 style="color:rgb(184, 176, 176)"> Machines</h6>
+            </center>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="display-section">
+    <h3 class="fs-7 mt-3 mb-2 ms-5 " style="color:rgb(56, 48, 48)">Just for you</h3>
+    <div class="row row-cols-1 row-cols-md-6 g-4 ms-5 me-5 ">
+      <div class="col">
+        <div class="card border-light">
+          <a href="#">  <img src="https://static-01.daraz.pk/p/052bec039f34896049596955354ebda5.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">BTS diary</h5></a>
+            <p class="card-text" style="color:orangered">RS 300</p>
+            <p class="card-text"><small class="text-muted"><S style="color:rgb(189, 186, 186)">500 </S> 20%</small></p>
+          
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border-light">
+          <a href="#">    <img src="https://static-01.daraz.pk/p/ed14f4f3b07c1848dca772946d516878.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Baby's care</h5></a>
+            <p class="card-text" style="color:orangered">RS 900</p>
+            <p class="card-text"><small class="text-muted"><S style="color:rgb(189, 186, 186)">1100 </S> 20%</small></p>
+
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border-light">
+          <a href="#">   <img src="https://static-01.daraz.pk/p/80a1879d00ea2871d804c4b97b639207.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"> Decoration</h5></a>
+            <p class="card-text" style="color:orangered">RS 300</p>
+            <p class="card-text"><small class="text-muted"><S style="color:rgb(189, 186, 186)">600 </S> 30%</small></p>
+
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border-light">
+          <a href="#"> <img src="https://static-01.daraz.pk/p/743ba21be87fcad829e760ca69093d28.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Wall Frames</h5></a>
+            <p class="card-text" style="color:orangered">RS 500</p>
+            <p class="card-text"><small class="text-muted"><S style="color:rgb(189, 186, 186)">700 </S> 20%</small></p>
+
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border-light">
+          <a href="#"> <img src="https://static-01.daraz.pk/p/ad498fd4ed273b60000ab651826f94b3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Lipsticks</h5></a>
+            <p class="card-text" style="color:orangered">RS 300</p>
+            <p class="card-text"><small class="text-muted"><S style="color:rgb(189, 186, 186)">500 </S> 20%</small></p>
+
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border-light">
+          <a href="#"> <img src="https://static-01.daraz.pk/p/3dc9e3fd436a91576a04702d7f497fce.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"> candle stand</h5></a>
+            <p class="card-text" style="color:orangered">RS 500</p>
+            <p class="card-text"><small class="text-muted"><S style="color:rgb(189, 186, 186)">800 </S> 40%</small></p>
+
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border-light">
+          <a href="#"> <img src="https://static-01.daraz.pk/p/6df28afc9e41bcf56bd928ab1202e558.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">6 mini plastic containers</h5></a>
+            <p class="card-text" style="color:orangered">RS 300</p>
+            <p class="card-text"><small class="text-muted"><S style="color:rgb(189, 186, 186)">500 </S> 20%</small></p>
+
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border-light">
+          <a href="#">  <img src="https://static-01.daraz.pk/p/c067ced623ed27177f2aab4f2f489eb9.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Red pearl Bracelet for girls</h5></a>
+            <p class="card-text" style="color:orangered">RS 300</p>
+            <p class="card-text"><small class="text-muted"><S style="color:rgb(189, 186, 186)">400 </S> 10%</small></p>
+
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border-light">
+          <a href="#"> <img src="https://static-01.daraz.pk/p/3600d45a72d65aaa5e3753bf6ee76ac5.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Heart shaped mirror</h5></a>
+            <p class="card-text" style="color:orangered">RS 1000</p>
+            <p class="card-text"><small class="text-muted"><S style="color:rgb(189, 186, 186)">1500 </S> 40%</small></p>
+
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border-light">
+          <a href="#"> <img src="https://static-01.daraz.pk/p/171b751c7eda9f47fa097529047a0b4f.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Traditional earings for girls</h5></a>
+            <p class="card-text" style="color:orangered">RS 300</p>
+            <p class="card-text"><small class="text-muted"><S style="color:rgb(189, 186, 186)">500 </S> 20%</small></p>
+
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border-light">
+          <a href="#">  <img src="https://static-01.daraz.pk/p/29d286ec8e9208c3ffacf9f310a4ac1b.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Cute Rainbow sheets</h5></a>
+            <p class="card-text" style="color:orangered">RS 200</p>
+            <p class="card-text"><small class="text-muted"><S style="color:rgb(189, 186, 186)">400 </S> 20%</small></p>
+
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border-light">
+       <a href="#">   <img src="https://static-01.daraz.pk/p/dc0b8e0625f84c20041e32f6b321ebdc.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">School stationary for school kids</h5></a>
+            <p class="card-text" style="color:orangered">RS 300-600</p>
+            <p class="card-text"><small class="text-muted"><S style="color:rgb(189, 186, 186)">800 </S> 40%</small></p>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="row footer-link-section pb-2">
+    <div class="col-md-2 ms-5 mt-2">
+      <h5 class="footer-subheading ">Customer Care</h3>
+        <ul class="footer-list">
+          <li><a href="#"> Help Center </a></li>
+          <li><a href="#"> How to buy </a></li>
+          <li><a href="#"> Own your Store </a></li>
+          <li><a href="#"> Returns &amp; refunds </a></li>
+          <li><a href="#"> Contact us </a></li>
+          <li><a href="#"> help Center </a></li>
+          <li><a href="#"> How to buy </a></li>
+          <li><a href="#"> Own your Store </a></li>
+          <li><a href="#"> Returns &amp; refunds </a></li>
+          <li><a href="#"> Contact us </a></li>
+        </ul>
+
+        <h5 class="footer-subheading">Make Money With Us</h3>
+          <ul class="footer-list">
+            <li><a href="#"> Sell on Daraz </a></li>
+            <li><a href="#"> Affiliate program of Daraz </a></li>
+            <li><a href="#"> Sell your Product </a></li>
+          </ul>
+    </div>
+
+    <div class="col-md-3 mt-5 ms-5">
+      <h5 class="footer-subheading">Daraz</h3>
+        <ul class="footer-list">
+          <li><a href="#"> About Us </a></li>
+          <li><a href="#"> Contact us </a></li>
+          <li><a href="#"> Digital payment </a></li>
+          <li><a href="#"> Daraz Blogs </a></li>
+          <li><a href="#"> Payments </a></li>
+          <li><a href="#"> Privacy terms </a></li>
+          <li><a href="#"> NTN Number: 1221-1222-11 </a></li>
+          <li><a href="#"> Online Shopping App </a></li>
+          <li><a href="#"> Returns &amp; refunds </a></li>
+          <li><a href="#"> Contact us </a></li>
+          <li><a href="#"> Daraz Blogs </a></li>
+          <li><a href="#"> Payments </a></li>
+        </ul>
+    </div>
+
+    <div class="col-md-5">
+      <div class="d-flex mt-4">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/QR_deWP.svg/1200px-QR_deWP.svg.png"
+          width="90" height="70" class="qrcode-img" alt="QRcode of App">
+        <div class="ms-3 mt-4">
+          <img src="https://logos-world.net/wp-content/uploads/2022/05/Daraz-Emblem.png" height="50" width="80"
+            class="footer-logo-img" alt="footer logo img">
+          <p class="card-text mb-0 footer-side-text" style="color:orangered">Happy Shopping</p>
+          <p class="card-text">Download App</p>
+        </div>
+      </div>
+      <div class="mt-5 d-flex mb-3 applestore-imgs">
+        <a href="#"><img
+            src="https://w7.pngwing.com/pngs/1015/380/png-transparent-app-store-logo-iphone-app-store-google-play-apple-app-store-electronics-text-logo.png"
+            width="90" height="50" alt="link to apple store"></a>
+        <a href="#"><img
+            src="https://w7.pngwing.com/pngs/696/500/png-transparent-google-play-mobile-phones-google-search-google-text-logo-sign.png"
+            width="90" height="50" alt="link to play store"></a>
+
+      </div>
+    </div>
+  </div>
+  <div class="row mx-4">
+    <div class="col-md-3 mt-4 mb-3 ps-4">
+      <h3 class="fs-4 mb-3">Payment Methods</h3>
+      <div class="d-flex flex-wrap">
+        <img
+          src="https://png.pngtree.com/png-vector/20210529/ourlarge/pngtree-cod-cash-on-delivery-fast-png-image_3382624.jpg"
+          width="60" height="40" alt="payment method">
+        <img src="https://usa.visa.com/dam/VCOM/regional/ve/romania/blogs/hero-image/visa-logo-800x450.jpg" width="60"
+          height="40" alt="payment method">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Mastercard-logo.svg/1280px-Mastercard-logo.svg.png"
+          width="60" height="30" alt="payment method">
+        <img src="https://allweneeds.files.wordpress.com/2011/09/easypaisa-logo.png" width="60" height="40"
+          alt="payment method">
+        <img src="https://vectorseek.com/wp-content/uploads/2020/12/Jazz-cash-logo-vector-scaled.jpg" width="60"
+          height="40" alt="payment method">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/UnionPay_logo.svg/1200px-UnionPay_logo.svg.png"
+          width="60" height="30" alt="payment method">
+      </div>
+      <div>
+        <h3 class="mt-4 fs-5">© Daraz 2022</h3>
+      </div>
+    </div>
+    <div class="col-md-3 mt-4 mb-3 ps-4">
+      <h3 class="fs-4 mb-3">Daraz International</h3>
+      <div class="d-flex flex-wrap">
+        <img
+          src="https://e7.pngegg.com/pngimages/389/224/png-clipart-round-white-and-green-turkey-flag-art-flag-of-pakistan-qissa-khawani-bazaar-flag-of-turkey-pakistan-flag-flag-logo-thumbnail.png"
+          width="40" height="20" alt="international">
+
+        <img src="https://vectorflags.s3.amazonaws.com/flags/bd-circle-01.png" width="30" height="20"
+          alt="international">
+        <img
+          src="https://static.vecteezy.com/system/resources/previews/011/571/257/original/circle-flag-of-sri-lanka-free-png.png"
+          width="20" height="20" alt="international">
+        <img src="https://cdn-icons-png.flaticon.com/512/197/197387.png" width="30" height="20" alt="international">
+
+      </div>
+    </div>
+    <div class="col-md-3 mt-4 mb-3 ps-4">
+      <h3 class="fs-4 mb-3">Follow Us</h3>
+      <div class="d-flex flex-wrap">
+        <img src="https://www.freeiconspng.com/uploads/logo-facebook-circle-png-pictures-9.png" width="30" height="30"
+          alt="payment method">
+        <img src="https://www.clipartmax.com/png/middle/135-1352882_png-format-twitter-logo-transparent.png" width="50"
+          height="33" alt="payment method">
+        <img src="https://cdn.icon-icons.com/icons2/1211/PNG/512/1491579602-yumminkysocialmedia36_83067.png" width="30"
+          height="30" alt="payment method">
+        <img src="https://www.clipartmax.com/png/middle/134-1347619_youtube-logo-round-png-youtube-icon-circle-png.png"
+          width="50" height="35" alt="payment method">
+        <img src="https://charbase.com/images/glyph/9401" width="40" height="35" alt="payment method">
+
+      </div>
+
+    </div>
+    <div class="col-md-3 mt-4 mb-3 ps-4">
+      <h3 class="fs-4 mb-3">Verified by</h3>
+      <div class="d-flex flex-wrap">
+        <img src="./Screenshot (440).png" width="150" height="80" alt="payment method">
+
+      </div>
+
+    </div>
+  </div>
+  <div class="row last-part mx-1 my-1 ">
+    <div class="col-md-3 mt-4 mb-3 ps-4 ms-1">
+      <h5 class="fs-4 mb-3 " style="color:grey;">How Daraz Transformed Online Shopping in Pakistan</h5>
+      <div class="d-flex flex-wrap">
+        <p>
+          <font size=2>Daraz first made waves in Pakistan’s e-commerce market after its introduction in 2012. We have
+            since grown to
+            become Pakistan’s largest platform for online shopping with a network spread across Asia in Pakistan,
+            Bangladesh, Sri Lanka, Myanmar, and Daraz.com.np. Our vision was to provide a safe, efficient online
+            marketplace
+            platform for vendors and customers across the country to come together. We started off exclusively as an
+            online
+            fashion retail platform and over the years expanded to become a complete one-stop solution for all your
+            buying
+            needs. Daraz prides itself on not being just another ecommerce venture in Asia. We work tirelessly to make
+            sure
+            that we provide users with the best online online shopping experience and value for their purchases. Whether
+            you
+            shop online through our website or our online shopping mobile App, you can expect easy navigation,
+            customized
+            recommendations, and a smooth online shopping experience guaranteed.
+        </p>
+        </font>
+
+        <h5 style="color:grey;">What Makes Us Different from Other Online Shopping Platforms?</h5>
+        <p>
+          <font size=2><b>Select from the Largest Online Marketplace in Pakistan</b>
+            With over 15 million products to select from, Daraz offers its customers the most comprehensive listing of
+            products in the country. Whether you’re looking for electronics, apparel, appliances, or groceries – there
+            is
+            something for everyone.</font>
+        </p>
+        <p style="line-height:1.5rem">
+          <font size=2><b >Hassle Free Delivery</b><br />
+            Online shopping is only as good as its execution and Daraz promises hassle free delivery right from the
+            moment
+            you
+            order to when your package is dropped at your door. We cater to both major and smaller cities alike, and
+            give
+            you
+            the choice to track your package as it makes its way to you so you always know your order status. If you are
+            unsatisfied with any aspect of your order, we have a simple 7-day return or exchange policy.
+        </p>
+        </font>
+        <p>
+          <font size=2><b>Payment Options to Suit Every Style</b><br />
+            You can choose to pay through a credit/debit card, opt for cash on delivery or even go for EMI (easy monthly
+            instalments). You can also avail exclusive offers by downloading Daraz Wallet – a closed loop digital wallet
+        </p>
+        <!-- <p><font size=2><b></b><br/></font></p> -->
+        </font>
+      </div>
+    </div>
+    <div class="col-md-3 mt-4 mb-3 ps-4 ms-5">
+      <p class="fs-4 mb-3 " style="line-height:1rem">
+        <font size=2>that offers you a secure, easy way to make payments. We also have easypaisa & jazzcash
+          payment method for our customers' ease
+      </p>
+      </font>
+      <div class="d-flex flex-wrap">
+        <p style="line-height:1.5rem">
+          <font size=2><b>Shop from Verified Vendors</b><br />
+            Daraz understands that online shopping in Pakistan comes with its fair share of risks. This is why with
+            Daraz Marketplace and Daraz Mall customers have the security of choosing from verified vendors and brands
+            from Karachi, Lahore, Islamabad and all across Pakistan. Now you’ll never have to second guess
+            authenticity because Daraz makes sure to do it for you!</font>
+        </p>
+        <p>
+          <font size=2><b>Shop Around the World with Daraz Global Collection</b><br />
+            International sellers and local convenience come together with Daraz Global collection. Get the chance to
+            shop online from vendors around the world without leaving the Daraz website. Featuring thousands of
+            novelty gadgets and accessories, Daraz Global Collection offers you a selection of products that you won’t
+            find anywhere else when you’re online shopping in Pakistan.</font>
+        </p>
+        <p>
+          <font size=2><b>Avail Exclusive Discounts, Offers, and Promotions</b><br />
+            Online shopping with Daraz means you get the chance to avail exclusive online-only promotional packages as
+            well as discount vouchers from our vendors when you shop from their pages. Our flash sales give you
+            customized product offers all curated with the help of our advanced AI technology so you always have deals
+            you’ll actually be interested in!font</font>
+        </p>
+        <p>
+          <font size=2><b>Buy Value, not Just Goods with Daraz Care</b><br />
+            Daraz does not just cater online shopping in Pakistan but also aims to simplify the way you give back to
+            society. With charities spanning across sectors of education, health care, environmental preservation, and
+            shelters, you can choose to make a big difference with a few, simple clicks.</font>
+        </p>
+        <p>
+          <font size=2><b>Simplify Corporate Purchases</b><br />
+            Who says corporate purchases need to be a complicated affair? When you opt for Daraz Corporate, you get an
+            efficient and transparent solution for your business’ bulk purchasing needs. We’re proud to be working
+            with some of the most prestigious organizations in Pakistan across a number of different
+            industries.</font>
+        </p>
+      </div>
+    </div>
+
+    <div class="col-md-3 mt-4 mb-3 ps-4 ms-5">
+      <h5 class="fs-4 mb-3" style="color:grey;">Top Categories & Brands</h5>
+      <div class="d-flex flex-wrap">
+        <h6 style="color:grey;">MOBILE PHONES IN PAKISTAN</h6>
+        <p style="line-height:1.5rem">
+          <font size=2>Apple iPhones, Honor Mobiles, Huawei Mobiles, Tecno Mobiles, Redmi Mobiles, Xiaomi Mi Mobiles,
+            Nokia
+            Mobiles, OnePlus Mobiles, Oppo Mobile Phones, Realme Mobiles, Samsung Mobile Phones, Vivo Mobile Phones,
+            Mobile Accessories, Smart Watches
+        </p>
+        </font>
+        <h6 style="color:grey;">LATEST LAPTOPS</h6>
+        <p style="line-height:1.5rem">Dell Laptops, HP Laptops, Lenovo Laptops, Mouse, Gaming Graphic Cards, lenovo
+          ideapad 3, Macbook Pro 13, Hp
+          Probook 650 G2</p>
+        <h6 style="color:grey;">LED TV</h6>
+        <p> Changhong Led Tv, LG Led Tv, Samsung Led Tv, Sony Led Tv, TCL LED TVs</p>
+        <h6 style="color:grey;"> HOME APPLIANCES</h6>
+        <p> Microwave oven, Geyser, Heater, Refrigerators, Deep Freezers, Generators, Water Dispensers, Fans, Room
+          Cooler,
+          Table Fans, Wall Fans, Exhaust Fans, Pedestal Fans, Window Ac, Solar Panel, Washing Machine.</p>
+        <h6 style="color:grey;"> DSLR CAMERAS</h6>
+        <p>Camera Tripods, Drones, IP & CCTV Cameras, Nikon D7000, Nikon D5600, Canon 200D, Canon 1200D, Fujifilm Instax
+          Mini 11, Canon M50</p>
+        <h6 style="color:grey;"> HEALTH & BEAUTY</h6>
+        <p> sunisa foundation, Biofad, janssen facial kit, Glutathione Injection, Glutathione Cream Sauvage, Glutathione
+          Tablets, Glutathione Soap, Infrared Thermometers, N95 Mask</p>
+       <h6 style="color:grey;">TRENDING</h6> 
+       <p> Wow Womens Week, Azaadi Sale 2022, Shopping Expo, 11 11 Sale, 12.12 Sale, Live Cricket Streaming, Online Bills,
+        Core I5 Laptop, Gtx 1060, Samsung A32, Samsung A51, Samsung A52, Samsung A71, Samsung A72, Samsung M31, Samsung
+        S20, Samsung S20 Ultra 5G, Samsung S21, Samsung S21 Ultra, Samsung Z Flip, Tecno Camon 17, Tecno Spark 6, Vivo
+        V20, Poco X3 Pro, Vivo V21, Vivo V21E, Vivo X70 Pro, Vivo Y12, Vivo Y12S, Vivo Y1S, Vivo Y20, Vivo Y51, Vivo
+        Y51S, Oppo F19 Pro, Oppo Reno 6, Xiaomi Poco F3, Xiaomi Poco M3, Xiaomi Poco X3, Xiaomi Poco X3 Gt, Xiaomi Redmi
+        9C, Xiaomi Redmi Note 10 Pro, Sharp Aquos R2</p>
+       <h6 style="color:grey;"> SHOP WORLDWIDE WITH LAZADA</h6>
+<p>Singapore, Malaysia, Philipines, Indonesia, Vietnam, Thailand</p>
+<a href="#" style="color:rgb(82, 140, 167); text-decoration: none;">See more links</a>
+      </div>
+    </div>
+   
+</div>
+ 
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+    integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+    crossorigin="anonymous"></script>
+</body>
