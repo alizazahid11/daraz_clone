@@ -10,6 +10,9 @@ The Daraz Clone UI project is a replica of the popular e-commerce platform Daraz
 ![Alt text](https://github.com/alizazahid11/daraz_clone/blob/main/Assets/pic4.PNG?raw=true)
 ![Alt text](https://github.com/alizazahid11/daraz_clone/blob/main/Assets/pic5.PNG?raw=true)
 ![Alt text](https://github.com/alizazahid11/daraz_clone/blob/main/Assets/pic6.PNG?raw=true)
+
+## Live Demo
+https://daraz-web-clone.netlify.app/#
 ## Features
 
 - Navigation Bar: A navigation bar similar to Daraz's is included, providing easy access to different sections of the website.
