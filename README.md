@@ -2,8 +2,7 @@
 # Daraz Clone UI
 
 The Daraz Clone UI project is a replica of the popular e-commerce platform Daraz, created solely with HTML, CSS, and Bootstrap. This project serves as a demonstration of recreating the user interface of Daraz without the use of JavaScript, focusing solely on front-end design and layout.
-
-
+## ScreenShots
 ## Features
 
 - Navigation Bar: A navigation bar similar to Daraz's is included, providing easy access to different sections of the website.
